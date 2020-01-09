@@ -1,3 +1,4 @@
 rootProject.name = "playfield-kt"
-include(":modules:playfield-kt-domain")
-include(":modules:playfield-kt-backend")
+include(":modules:domain:users")
+include(":modules:domain:tasks")
+include(":modules:backend:webflux")
